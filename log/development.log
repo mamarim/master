@@ -1,0 +1,88 @@
+
+
+Started GET "/users/1" for 127.0.0.1 at 2011-01-27 12:23:37 +0000
+
+ActionController::RoutingError (No route matches "/users/1"):
+  
+
+Rendered /Users/John/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2011-01-27 12:23:41 +0000
+  Processing by PlayersController#index as HTML
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "players"[0m
+  [1m[35mPlayer Load (0.1ms)[0m  SELECT "players".* FROM "players" ORDER BY "players"."id" ASC LIMIT 15 OFFSET 0
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY "players"."id" ASC LIMIT 15 OFFSET 0[0m
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_action_group.html.erb (8.8ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_list_header.html.erb (12.9ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_list_column_headings.html.erb (4.7ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_messages.html.erb (0.5ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_list_messages.html.erb (4.5ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_list_pagination.html.erb (0.7ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_list.html.erb (19.6ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_list_with_header.html.erb (38.8ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/list.html.erb within layouts/application (44.1ms)
+Completed 200 OK in 59ms (Views: 51.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/players/new?adapter=_list_inline_adapter" for 127.0.0.1 at 2011-01-27 12:23:43 +0000
+  Processing by PlayersController#new as JS
+  Parameters: {"adapter"=>"_list_inline_adapter"}
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_form_attribute.html.erb (1.0ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_form_attribute.html.erb (1.1ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_form_attribute.html.erb (1.1ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_form_attribute.html.erb (1.2ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_horizontal_subform_header.html.erb (2.0ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_form_attribute.html.erb (1.3ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_form_attribute.html.erb (1.3ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_horizontal_subform_record.html.erb (15.1ms)
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "teams"
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_form_association_footer.html.erb (33.3ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_horizontal_subform.html.erb (61.2ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_form_association.html.erb (69.6ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_form.html.erb (126.9ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_base_form.html.erb (132.5ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_create_form.html.erb (136.6ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_messages.html.erb (0.6ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_list_inline_adapter.html.erb (4.1ms)
+Completed 200 OK in 149ms (Views: 7.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2011-01-27 17:57:07 +0000
+  Processing by PlayersController#index as HTML
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "players"[0m
+  [1m[35mPlayer Load (0.1ms)[0m  SELECT "players".* FROM "players" ORDER BY "players"."id" ASC LIMIT 15 OFFSET 0
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY "players"."id" ASC LIMIT 15 OFFSET 0[0m
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_action_group.html.erb (12.2ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_list_header.html.erb (16.9ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_list_column_headings.html.erb (4.6ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_messages.html.erb (0.5ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_list_messages.html.erb (5.8ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_list_pagination.html.erb (0.6ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_list.html.erb (21.4ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_list_with_header.html.erb (45.7ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/list.html.erb within layouts/application (55.9ms)
+Completed 200 OK in 73ms (Views: 64.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/players/new?adapter=_list_inline_adapter" for 127.0.0.1 at 2011-01-27 17:57:08 +0000
+  Processing by PlayersController#new as JS
+  Parameters: {"adapter"=>"_list_inline_adapter"}
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_form_attribute.html.erb (1.2ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_form_attribute.html.erb (1.2ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_form_attribute.html.erb (1.1ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_form_attribute.html.erb (1.2ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_horizontal_subform_header.html.erb (2.2ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_form_attribute.html.erb (1.2ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_form_attribute.html.erb (1.2ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_horizontal_subform_record.html.erb (13.5ms)
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "teams"
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_form_association_footer.html.erb (2.7ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_horizontal_subform.html.erb (29.5ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_form_association.html.erb (37.4ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_form.html.erb (96.6ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_base_form.html.erb (132.7ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_create_form.html.erb (137.2ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_messages.html.erb (0.5ms)
+Rendered vendor/plugins/active_scaffold/frontends/default/views/_list_inline_adapter.html.erb (4.4ms)
+Completed 200 OK in 150ms (Views: 7.7ms | ActiveRecord: 0.2ms)

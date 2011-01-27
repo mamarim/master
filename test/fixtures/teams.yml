@@ -1,0 +1,21 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  position: 1
+
+two:
+  name: MyString
+  position: 1
+
+# == Schema Information
+#
+# Table name: teams
+#
+#  id         :integer         not null, primary key
+#  name       :string(255)
+#  position   :integer
+#  created_at :datetime
+#  updated_at :datetime
+#
+
